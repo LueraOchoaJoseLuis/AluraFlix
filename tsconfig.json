@@ -3,5 +3,9 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  "compilerOptions": {
+    "jsx": "react-jsx", // Habilita la nueva sintaxis de JSX para React 17+
+    "noUnusedLocals": false // Permite importaciones no utilizadas (opcional)
+  }
 }
